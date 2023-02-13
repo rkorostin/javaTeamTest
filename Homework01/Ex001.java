@@ -10,4 +10,12 @@ public class Ex001 {
       System.out.println(array[i]);
     }
   }
+
+  int summEl(int[] array) {
+    int sum = 0;
+    for (int i = 0; i < array.length; i++) {
+      sum += array[i];
+    }
+    return sum;
+  }
 }
